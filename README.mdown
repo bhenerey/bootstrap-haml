@@ -14,10 +14,15 @@ styling in between <style></style> tags. I moved this all to an external stylesh
 
 ### Prep
 rvm use 1.9.2
+
 rvm gemset create bootstrap-haml
+
 rvm gemset use bootstrap-haml
+
 gem install sinatra
+
 gem install haml
+
 
 ### Run Sinatra
 ruby -rubygems app.rb 
